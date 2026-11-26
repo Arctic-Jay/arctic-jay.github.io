@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Haberstock | Portfolio</title>
+  <meta name="description" content="Portfolio of Alexander Haberstock, junior programmer and CST student.">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">AH</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <!-- <h1>Hi, I'm Alexander.</h1> -->
+      <h1>Portfolio under construction</h1>
+      <p class="tagline">Junior programmer and CST student at Saskatchewan Polytechnic.</p>
+      <a class="button" href="#projects">See my projects</a>
+      <a class="button" href="./assets/Resume.pdf" download="Alexander Resume.pdf" >Download Resume</a>
+    </section>
+
+    <section id="about">
+      <h1>About me</h1>
+      <p>
+        **About me goes here**
+      </p>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <div id="project-grid" class="grid" aria-live="polite">
+        <p>Loading projects...</p>
+      </div>
+    </section>
+
+    <div id="prjModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="mClose" class="close">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the Modal Body</p>
+          <p>Some other text...</p>
+        </div>
+    </div>
+  </div>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <ul class="links">
+        <li><a href="https://github.com/YOUR-USERNAME" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/YOUR-HANDLE" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:ajhaberstock@gmail.com">Email</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Alexander Haberstock</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
